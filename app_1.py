@@ -7,7 +7,7 @@ import joblib
 model = LinearRegression()
 # model.fit(X_train, y_train)
 # joblib.dump(model, 'your_model.pkl')
-loaded_model = joblib.load('/Users/test/Desktop/проект2/работает/your_model.pkl')
+loaded_model = joblib.load('your_model.pkl')
 
 # Интерфейс для загрузки файла
 st.title("Оценка стоимости недвижимости")
